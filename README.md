@@ -1,6 +1,6 @@
 # Flux Pond
 
-[![CI](https://github.com/dniku/flux-pond/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dniku/flux-pond/actions/workflows/ci.yml) **[▶ Play it live](https://raw.githack.com/dniku/flux-pond/main/index.html)**
+[![CI](https://github.com/thaumapolis/flux-pond/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/thaumapolis/flux-pond/actions/workflows/ci.yml) **[▶ Play it live](https://raw.githack.com/thaumapolis/flux-pond/main/index.html)**
 
 A procedurally generated buoyant creature in a shallow, stratified trench that you steer with cursor pressure — and a toy about one specific emergent thing: **a body floating at a waterline**. It also gets hungry, and has to dive into the plankton layer to eat, which is the difference between a balloon that bobs and an animal with somewhere to be — and below the plankton band something bigger is sitting in the dark, which is what turns somewhere to be into a decision.
 
@@ -34,10 +34,10 @@ It is generated, and a test rebuilds it and compares bytes, so a stale `index.ht
 
 ### Live, from the repo
 
-**<https://raw.githack.com/dniku/flux-pond/main/index.html>** runs the toy straight out of this repo — no build, no hosting — which works only because the page is one file that asks for nothing else. That it really is this file is worth checking rather than taking on faith:
+**<https://raw.githack.com/thaumapolis/flux-pond/main/index.html>** runs the toy straight out of this repo — no build, no hosting — which works only because the page is one file that asks for nothing else. That it really is this file is worth checking rather than taking on faith:
 
 ```bash
-curl -s https://raw.githack.com/dniku/flux-pond/main/index.html | sha256sum
+curl -s https://raw.githack.com/thaumapolis/flux-pond/main/index.html | sha256sum
 sha256sum index.html                             # same digest
 ```
 
