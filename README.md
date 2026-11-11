@@ -1,5 +1,7 @@
 # Flux Pond
 
+<!-- Front page image: tests/golden/idle-5s.png -->
+
 [![CI](https://github.com/thaumapolis/flux-pond/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/thaumapolis/flux-pond/actions/workflows/ci.yml) **[▶ Play it live](https://raw.githack.com/thaumapolis/flux-pond/main/index.html)**
 
 A procedurally generated buoyant creature in a shallow, stratified trench that you steer with cursor pressure — and a toy about one specific emergent thing: **a body floating at a waterline**. It also gets hungry, and has to dive into the plankton layer to eat, which is the difference between a balloon that bobs and an animal with somewhere to be — and below the plankton band something bigger is sitting in the dark, which is what turns somewhere to be into a decision.
